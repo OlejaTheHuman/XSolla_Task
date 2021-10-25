@@ -1,9 +1,8 @@
 import React from "react";
-import image from "../images/raveAutumn.png";
 import favorite from "../images/favorite.svg";
 import isFavorite from "../images/isFavorite.svg";
 
-function Block({name, date}) {
+function Block({name, date, image}) {
     const [favoriteState, setFavoriteState] = React.useState(false);
     const onClickFavorite = (state) => {
       setFavoriteState(!state);
