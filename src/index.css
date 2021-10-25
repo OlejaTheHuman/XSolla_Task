@@ -1,3 +1,17 @@
+@font-face {
+font-family: "Avenir";
+src: url("./fonts/AvenirLTStd-Black.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./fonts/AvenirLTStd-Roman.otf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
 body{
   margin: 0;
   padding: 80px;
@@ -73,7 +87,7 @@ nav p,span{
   font-family: Avenir, serif;
   font-style: normal;
   font-size: 24px !important;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
 }
 
 .menu__city{
@@ -182,6 +196,9 @@ nav p,span{
 }
 
 @media (max-width: 1250px) {
+  .content__block{
+   height: calc(100vw/2);
+  }
   nav{
     flex-wrap: wrap;
   }
@@ -212,12 +229,12 @@ nav p,span{
 
   .block__name{
     font-size: 30px !important;
+    line-height: 30px !important;
     bottom: 21px;
   }
 
   .block__utils{
     padding: 20px;
-
   }
 
   nav p,span {
@@ -228,4 +245,9 @@ nav p,span{
     width: 150px;
     height: 40px;
   }
+
+  .menu__popup{
+    width: 150px;
+  }
+
 }
