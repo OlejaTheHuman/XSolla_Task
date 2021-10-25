@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/XSolla_Task/static/css/main.38d3dfe3.chunk.css",
+    "main.css": "/XSolla_Task/static/css/main.7a8628a2.chunk.css",
     "main.js": "/XSolla_Task/static/js/main.017f9ee9.chunk.js",
     "main.js.map": "/XSolla_Task/static/js/main.017f9ee9.chunk.js.map",
     "runtime-main.js": "/XSolla_Task/static/js/runtime-main.38989712.js",
@@ -8,8 +8,9 @@
     "static/js/2.3da19e33.chunk.js": "/XSolla_Task/static/js/2.3da19e33.chunk.js",
     "static/js/2.3da19e33.chunk.js.map": "/XSolla_Task/static/js/2.3da19e33.chunk.js.map",
     "index.html": "/XSolla_Task/index.html",
-    "static/css/main.38d3dfe3.chunk.css.map": "/XSolla_Task/static/css/main.38d3dfe3.chunk.css.map",
+    "static/css/main.7a8628a2.chunk.css.map": "/XSolla_Task/static/css/main.7a8628a2.chunk.css.map",
     "static/js/2.3da19e33.chunk.js.LICENSE.txt": "/XSolla_Task/static/js/2.3da19e33.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/XSolla_Task/static/media/AvenirLTStd-Black.7ce894e1.otf",
     "static/media/arrow.c381148f.svg": "/XSolla_Task/static/media/arrow.c381148f.svg",
     "static/media/favorite.405cea49.svg": "/XSolla_Task/static/media/favorite.405cea49.svg",
     "static/media/isFavorite.e1bc097d.svg": "/XSolla_Task/static/media/isFavorite.e1bc097d.svg"
@@ -17,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.38989712.js",
     "static/js/2.3da19e33.chunk.js",
-    "static/css/main.38d3dfe3.chunk.css",
+    "static/css/main.7a8628a2.chunk.css",
     "static/js/main.017f9ee9.chunk.js"
   ]
 }
