@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/OlejaTheHuman/XSolla_Task/static/css/main.c184a7ed.chunk.css",
+    "main.js": "/OlejaTheHuman/XSolla_Task/static/js/main.1739daae.chunk.js",
+    "main.js.map": "/OlejaTheHuman/XSolla_Task/static/js/main.1739daae.chunk.js.map",
+    "runtime-main.js": "/OlejaTheHuman/XSolla_Task/static/js/runtime-main.63a9e6a1.js",
+    "runtime-main.js.map": "/OlejaTheHuman/XSolla_Task/static/js/runtime-main.63a9e6a1.js.map",
+    "static/js/2.3da19e33.chunk.js": "/OlejaTheHuman/XSolla_Task/static/js/2.3da19e33.chunk.js",
+    "static/js/2.3da19e33.chunk.js.map": "/OlejaTheHuman/XSolla_Task/static/js/2.3da19e33.chunk.js.map",
+    "index.html": "/OlejaTheHuman/XSolla_Task/index.html",
+    "static/css/main.c184a7ed.chunk.css.map": "/OlejaTheHuman/XSolla_Task/static/css/main.c184a7ed.chunk.css.map",
+    "static/js/2.3da19e33.chunk.js.LICENSE.txt": "/OlejaTheHuman/XSolla_Task/static/js/2.3da19e33.chunk.js.LICENSE.txt",
+    "static/media/arrow.c381148f.svg": "/OlejaTheHuman/XSolla_Task/static/media/arrow.c381148f.svg",
+    "static/media/favorite.405cea49.svg": "/OlejaTheHuman/XSolla_Task/static/media/favorite.405cea49.svg",
+    "static/media/isFavorite.e1bc097d.svg": "/OlejaTheHuman/XSolla_Task/static/media/isFavorite.e1bc097d.svg",
+    "static/media/raveAutumn.c1011498.png": "/OlejaTheHuman/XSolla_Task/static/media/raveAutumn.c1011498.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63a9e6a1.js",
+    "static/js/2.3da19e33.chunk.js",
+    "static/css/main.c184a7ed.chunk.css",
+    "static/js/main.1739daae.chunk.js"
+  ]
+}
