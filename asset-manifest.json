@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/XSolla_Task/static/css/main.c184a7ed.chunk.css",
-    "main.js": "/XSolla_Task/static/js/main.1739daae.chunk.js",
-    "main.js.map": "/XSolla_Task/static/js/main.1739daae.chunk.js.map",
+    "main.js": "/XSolla_Task/static/js/main.017f9ee9.chunk.js",
+    "main.js.map": "/XSolla_Task/static/js/main.017f9ee9.chunk.js.map",
     "runtime-main.js": "/XSolla_Task/static/js/runtime-main.38989712.js",
     "runtime-main.js.map": "/XSolla_Task/static/js/runtime-main.38989712.js.map",
     "static/js/2.3da19e33.chunk.js": "/XSolla_Task/static/js/2.3da19e33.chunk.js",
@@ -12,13 +12,12 @@
     "static/js/2.3da19e33.chunk.js.LICENSE.txt": "/XSolla_Task/static/js/2.3da19e33.chunk.js.LICENSE.txt",
     "static/media/arrow.c381148f.svg": "/XSolla_Task/static/media/arrow.c381148f.svg",
     "static/media/favorite.405cea49.svg": "/XSolla_Task/static/media/favorite.405cea49.svg",
-    "static/media/isFavorite.e1bc097d.svg": "/XSolla_Task/static/media/isFavorite.e1bc097d.svg",
-    "static/media/raveAutumn.c1011498.png": "/XSolla_Task/static/media/raveAutumn.c1011498.png"
+    "static/media/isFavorite.e1bc097d.svg": "/XSolla_Task/static/media/isFavorite.e1bc097d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.38989712.js",
     "static/js/2.3da19e33.chunk.js",
     "static/css/main.c184a7ed.chunk.css",
-    "static/js/main.1739daae.chunk.js"
+    "static/js/main.017f9ee9.chunk.js"
   ]
 }
