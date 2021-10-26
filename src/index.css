@@ -23,6 +23,8 @@ p{
 }
 
 .page{
+  margin: auto;
+  max-width: 1450px;
   width: 100%;
   background-color: #FFF;
   border-radius: 16px;

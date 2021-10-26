@@ -32,6 +32,7 @@ function Menu({type, options}){
     }, []);
 
 
+
     return(
         <div>
             <p>{type}: </p>
