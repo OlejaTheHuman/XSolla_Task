@@ -1,15 +1,16 @@
 import React from "react";
 import arrow from "../images/arrow.svg";
 
-function Menu({type, options}){
-    const [itemsState, setItemsState] = React.useState(0);
+function Menu({type, options, indexState}){
+    const [itemsState, setItemsState] = React.useState('');
     const [menuState, setMenuState] = React.useState(false);
 
     const menuRef = React.useRef();
 
     const onClickItem = (index) => {
-        setItemsState(index);
-        setMenuState(false);
+         indexState(options[index]);
+         setItemsState(index);
+         setMenuState(false);
     };
 
     const onClickMenu = (state) => {
