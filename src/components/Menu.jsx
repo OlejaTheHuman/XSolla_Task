@@ -1,13 +1,14 @@
 import React from "react";
 import arrow from "../images/arrow.svg";
 
-function Menu({type, options, indexState}){
-    const [itemsState, setItemsState] = React.useState('');
+function Menu({type, options, indexState, setNull}){
+    const [itemsState, setItemsState] = React.useState(null);
     const [menuState, setMenuState] = React.useState(false);
 
     const menuRef = React.useRef();
 
     const onClickItem = (index) => {
+         setNull = setItemsState;
          indexState(options[index]);
          setItemsState(index);
          setMenuState(false);
@@ -23,6 +24,7 @@ function Menu({type, options, indexState}){
         }
     };
 
+
     React.useEffect(() => {
         setMenuState(menuState);
     }, [menuState]);
@@ -31,7 +33,6 @@ function Menu({type, options, indexState}){
     React.useEffect(() => {
         document.body.addEventListener('click', outsideClick);
     }, []);
-
 
 
     return(
@@ -44,7 +45,8 @@ function Menu({type, options, indexState}){
             {menuState && <div ref={menuRef} className={'menu__popup'}>
                 {options.map((item, index) => <p
                     onClick={() => onClickItem(index)}
-                    key={`${item}__${index}`}>{item}</p>)}
+                    key={`${item}__${index}`}
+                >{item}</p>)}
             </div>}
         </div>
     );

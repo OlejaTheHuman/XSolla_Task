@@ -16,8 +16,7 @@ function App() {
     const [items, setItems] = React.useState([]);
     const [dateState, setDateState] = React.useState([]);
     const [cityState, setCityState] = React.useState([]);
-    const [dateIndex, setDateIndex] = React.useState(null);
-
+    const [payload, setPayload] = React.useState(null);
 
     React.useEffect(
         () => {
@@ -53,6 +52,7 @@ function App() {
         setDateState(array);
     },[items]);
 
+
     return (
       <div className="page">
           <div className="wrapper">
@@ -62,19 +62,19 @@ function App() {
               <nav className="menu">
                   <Menu type={'City'}
                         options={cityState}
-                        indexState={setDateIndex}
+                        indexState={setPayload}
                   />
                   <Menu type={'Month'}
                         options={dateState}
-                        indexState={setDateIndex}
+                        indexState={setPayload}
                   />
               </nav>
 
               <div className="content">
                   {items.map((arr, index) =>
                       {
-                          return  ((+(arr.date.split('.')[1]) === monthNames.indexOf(dateIndex) + 1) ||
-                              (arr.city === dateIndex))
+                          return  ((+(arr.date.split('.')[1]) === monthNames.indexOf(payload) + 1) ||
+                              (arr.city === payload))
                                 &&
                               <Block
                               key={`${index}__${arr.name}`}
